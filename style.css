@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(15, 26, 26);
+    color: rgb(198, 205, 222);
+}
+
+h1{
+    text-align:center;
+    margin: 50px 0;
+}
+input{
+
+    border:none;
+}
+#mark{
+    text-align: right;
+}
