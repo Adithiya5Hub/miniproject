@@ -13,4 +13,31 @@ input{
 }
 #mark{
     text-align: right;
+    margin-right: 20px;
+}
+button{
+   margin: 10px 0 0 0;
+   background-color: rgb(242, 242, 242);
+   color: black;
+   transition:0.5s;
+   cursor: pointer;
+   font-size: 20px;
+   border-radius: 1cm;
+   padding: 5px 10px;
+}
+button:hover{
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+h3{
+    font-size: 25px;
+}
+label{
+    font-size: 20px;
+}
+h4{
+    font-size: 20px;
 }
