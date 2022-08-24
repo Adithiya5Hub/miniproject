@@ -1,25 +1,30 @@
 
 
 document.getElementById("submit").onclick = function() {
+    var anw1 = document.getElementById("q1a")
+    var anw2 = document.getElementById("q2a")
+    var anw3 = document.getElementById("q3a")
+    var anw4 = document.getElementById("q4a")
+    var anw5 = document.getElementById("q5a")
     
-    var a1 = document.getElementById("a1").value;
-var a2 = document.getElementById("a2").value;
-var a3 = document.getElementById("a3").value;
-var a4 = document.getElementById("a4").value;
     var marks = 0;
-    if(a1.toLowerCase() == "insects"){
+    if(anw1.checked){
         marks+=1;
     }
-    if(a2.toLowerCase() == "africa"){
+    if(anw2.checked){
         marks+=1;
     }
-    if(a3.toLowerCase() == "diphu" || a3.toLowerCase() == "assam"){
+    if(anw3.checked){
         marks+=1;
     }
-    if(a4.toLowerCase() == "nazi party"){
+    if(anw4.checked){
         marks+=1;
     }
-    document.getElementById("mark").innerHTML = "<h3>Total Marks = "+marks+"</h3>";
+    if(anw5.checked){
+        marks+=1;
+    }
+    
+    document.getElementById("mark").innerHTML = "<h4>Total Marks = "+marks+"</h4>";
 }
 document.getElementById("reload").onclick = function(){
     location.reload();
