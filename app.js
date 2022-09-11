@@ -6,6 +6,10 @@ document.getElementById("submit").onclick = function() {
     var anw3 = document.getElementById("q3a")
     var anw4 = document.getElementById("q4a")
     var anw5 = document.getElementById("q5a")
+    var anw6 = document.getElementById("q6a")
+    var anw7 = document.getElementById("q7a")
+    var anw8 = document.getElementById("q8a")
+    var anw9 = document.getElementById("q9a")
     
     var marks = 0;
     if(anw1.checked){
@@ -21,6 +25,18 @@ document.getElementById("submit").onclick = function() {
         marks+=1;
     }
     if(anw5.checked){
+        marks+=1;
+    }
+    if(anw6.checked){
+        marks+=1;
+    }
+    if(anw7.checked){
+        marks+=1;
+    }
+    if(anw8.checked){
+        marks+=1;
+    }
+    if(anw9.checked){
         marks+=1;
     }
     
