@@ -10,6 +10,8 @@ document.getElementById("submit").onclick = function() {
     var anw7 = document.getElementById("q7a")
     var anw8 = document.getElementById("q8a")
     var anw9 = document.getElementById("q9a")
+    var anw10 = document.getElementById("q10a")
+    var anw11 = document.getElementById("q11a")
     
     var marks = 0;
     if(anw1.checked){
@@ -37,6 +39,12 @@ document.getElementById("submit").onclick = function() {
         marks+=1;
     }
     if(anw9.checked){
+        marks+=1;
+    }
+    if(anw10.checked){
+        marks+=1;
+    }
+    if(anw11.checked){
         marks+=1;
     }
     
