@@ -1,5 +1,3 @@
-
-
 document.getElementById("submit").onclick = function() {
     var anw1 = document.getElementById("q1a")
     var anw2 = document.getElementById("q2a")
@@ -47,8 +45,7 @@ document.getElementById("submit").onclick = function() {
     if(anw11.checked){
         marks+=1;
     }
-    
-    document.getElementById("mark").innerHTML = "<h4>Total Marks = "+marks+"</h4>";
+  document.getElementById("mark").innerHTML = "<h4>Total Marks = "+marks+"</h4>";
 }
 document.getElementById("reload").onclick = function(){
     location.reload();
